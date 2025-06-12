@@ -1,0 +1,45 @@
+#firstpage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(parallex_ping3.jpeg);
+}
+#sectionone,#sectiontwo,#sectionthree{
+    text-align: center;
+    height:200px ;
+}
+#secondpage{
+    height: 530px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(parallax_ping2.jpg);
+}
+#thirdpage{
+    height: 530px;
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    background-image: url(paralla_ping1.jpeg);
+}
+#firstpage,#secondpage,#thirdpage,#lastpage{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+button{
+    height: 70px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+div{
+    display: inline-block ;
+}
