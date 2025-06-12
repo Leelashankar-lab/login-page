@@ -1,45 +1,75 @@
-#firstpage{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(parallex_ping3.jpeg);
-}
-#sectionone,#sectiontwo,#sectionthree{
-    text-align: center;
-    height:200px ;
-}
-#secondpage{
-    height: 530px;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-image: url(parallax_ping2.jpg);
-}
-#thirdpage{
-    height: 530px;
-     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
-    background-image: url(paralla_ping1.jpeg);
-}
-#firstpage,#secondpage,#thirdpage,#lastpage{
-    background-attachment: fixed;
+body{
+    height: 729.60px;
+    background-image: url("login background2.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-button{
-    height: 70px;
-    width: 300px;
-    background-color: black;
+#container{
+    height: 420px;
+    width: 350px;
+    border: 1px solid rgb(255,255, 255,.2);
     color: white;
-    border-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.8);
+    backdrop-filter: blur(8px);
 }
-div{
-    display: inline-block ;
+h1{
+    font-size: 36px;
+    text-align: center;
 }
+.input{
+    height: 50px;
+    width: 270px;
+    border-radius: 40px;
+    margin: 15px 35px 15px 35px;
+    background-color: transparent;
+    border-color: rgb(255,255, 255,.2);
+    color: white;
+    font-size: 16px;
+    padding-left: 20px ;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.2);
+}
+.input::placeholder{
+    color: white;
+}
+#button{
+    width:288px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    margin: 15px 35px 15px 35px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,0.8);
+    font-weight: 800;
+}
+#help{
+    display: flex;
+    justify-content: space-between; 
+    margin: 10px 25px 10px 25px;
+    font-size: 1rem;
+}
+label{
+    accent-color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.register{
+         text-align: center;
+         color: white;
+         font-size: 1rem;
+}
+#register{
+    font-weight: 600;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
